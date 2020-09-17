@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+
+/* NAV */
+
+html {
+  scroll-behavior: smooth;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  animation: fade 3s;
+  background: #fff;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+nav {
+  box-shadow: 3px 3px;
+}
+
+.nav-logo {
+  height: 75px;
+  width: 70px;
+  opacity: 0.7;
+}
+
+a:hover,
+i:hover {
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a,
+i {
+  transition: all 0.3s ease-out 0s;
+}
+
+.navbar-toggler-icon {
+  font-size: 2rem;
+}
+
+.navbar-toggler-icon:hover {
+  color: rgb(78, 173, 234);
+}
+
+.fas {
+  color: #000;
+}
+
+.bg-dark {
+  background-color: #fff !important;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  transition: all 0.3s ease-out 0s;
+}
+
+.btn:not(:disabled):not(.disabled):hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-btn {
+  margin-top: 7px !important;
+  margin-left: 10px;
+  border-radius: 0 !important;
+}
+
+.navbarlink {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease-out 0s !important;
+  color: #222 !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase !important;
+}
+
+.navbarlink:hover {
+  color: rgb(78, 173, 234) !important;
+  transition: all 0.3s ease-in-out 0s !important;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.nav-btn {
+  margin-top: 25px;
+}
+
+@media (max-width: 991px) {
+  .nav-btn {
+    margin: auto;
+  }
+
+  .navbar-brand {
+    margin: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-link {
+    font-size: 10px;
+  }
+}

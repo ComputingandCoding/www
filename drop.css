@@ -1,0 +1,104 @@
+body {
+    background: #fffafa;
+}
+
+.dropdown-course li {
+    list-style: none;
+    color: #555;
+}
+
+.dropdown-course li:hover {
+    color: #000;
+}
+
+.dropdown-div {
+    margin: 0 5% 0 70%;
+}
+
+.box {
+    width: 100%;
+    border: 1px solid #000;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    bottom: 650px;
+}
+
+.toggle-container {
+    transition: height 0.35s ease-in-out;
+    overflow: hidden;
+}
+.toggle-container:not(.active) {
+    display: none;
+}
+
+.js-toggle {
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.js-toggle .fas {
+    float: right;
+}
+
+
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+
+@media (max-width: 1325px) {
+    .box {
+        bottom: 0;
+        width: 98%;
+    }
+
+    .js-toggle {
+        font-size: 20px;
+    }
+
+    #videoPLayer {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+      }
+      #videoPLayer iframe {
+        left: 0;
+        top: 0;
+        height: 70%;
+        width: 100%;
+        position: absolute;
+      }
+
+      .dropdown-div {
+        margin: 0;
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+.tBox {
+    bottom: 0;
+    width: 98%;
+}
+
+.dDrop {
+    margin: 0;
+    position: relative;
+    bottom: 0;
+}
+
+.mar {
+    margin: 0;
+    width: 100%;
+}

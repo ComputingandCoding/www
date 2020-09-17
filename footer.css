@@ -1,0 +1,48 @@
+/*Footer*/
+
+.footer {
+    margin-top: 0px;
+    background-color: #444;
+  }
+  
+  .footer-logo {
+    height: 60px;
+    width: 50px;
+    margin: 20px;
+    opacity: 0.7;
+  }
+  
+  .phone,
+  .phone i {
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+  
+  .phone {
+    color: #fff;
+  }
+  
+  .phone i,
+  .footer-icon {
+    transition: all 0.3s ease-out 0s;
+    color: #fff;
+  }
+  
+  .phone i:hover,
+  .footer-icon:hover {
+    transition: all 0.3s ease-in-out 0s;
+    color: rgb(101, 194, 215);
+  }
+  
+  .footer-icons {
+    display: inline-block;
+    float: right;
+    font-size: 2rem;
+    position: relative;
+  }
+  
+  .footer-icon {
+    margin: 10px;
+    margin-top: 25%;
+  }
+  

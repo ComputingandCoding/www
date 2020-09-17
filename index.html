@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="images/logos/favicon.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link
+    	rel="stylesheet"
+    	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  	/>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="nav.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Computing & Coding</title>
+</head>
+<body>
+	<div id="particles-js"></div>
+	<nav class="navbar bg-dark navbar-expand-lg navbar-dark shadow sticky-top">
+		<a class="navbar-brand" href="#">
+		  <img
+			class="nav-logo"
+			src="images/logos/favicon.png"
+			width="310px"
+			height="90px"
+			alt=""
+		  />
+		</a>
+		<button
+		  class="navbar-toggler"
+		  type="button"
+		  data-toggle="collapse"
+		  data-target="#navbarSupportedContent"
+		  aria-controls="navbarSupportedContent"
+		  aria-expanded="false"
+		  aria-label="Toggle navigation"
+		>
+		  <i class="fas fa-bars navbar-toggler-icon"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a
+				class="nav-link navbarlink"
+				href="index.html"
+			  	>
+				Home
+			  </a>
+			</li>
+			<li class="nav-item dropdown">
+			  <a
+				class="nav-link dropdown-toggle navbarlink"
+				id="navbarDropdown"
+				role="button"
+				data-toggle="dropdown"
+				aria-haspopup="true"
+				aria-expanded="false"
+			  >
+				About
+			  </a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="#about">
+				  About
+				</a>
+				<a class="dropdown-item" href="#staff">
+				  Our Team
+				</a>
+				<a class="dropdown-item" href="#reviews">
+				  Testimonials
+				</a>
+			  </div>
+			</li>
+			<li class="nav-item dropdown">
+			  <a
+				class="nav-link dropdown-toggle navbarlink"
+				id="navbarDropdown"
+				role="button"
+				data-toggle="dropdown"
+				aria-haspopup="true"
+				aria-expanded="false"
+			  >
+				Courses
+			  </a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="py.html" target="_blank">
+				  Python Programming
+				</a>
+				<a class="dropdown-item" href="web.html">
+				  Web Development
+				</a>
+				<a class="dropdown-item" href="cloud.html">
+				  Cloud Computing
+				</a>
+				<a class="dropdown-item" href="cy.html">
+				  Cyber Security & Networking
+				</a>
+				<a class="dropdown-item" href="block.html">
+				  Introduction to Blockchain
+				</a>
+				<a class="dropdown-item" href="mac.html">
+				  Machine Learning
+				</a>
+				<a class="dropdown-item" href="linux.html">
+				  Learn Linux
+				</a>
+				<a class="dropdown-item" href="ai.html">
+				  Introduction to AI
+				</a>
+				<a class="dropdown-item" href="git.html">
+				  Git Essentials
+				</a>
+				<a class="dropdown-item" href="kub.html">
+				  Kubernetes in 4 Hours
+				</a>
+			  </div>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link navbarlink" href="https://medium.com/@computingcoding">
+				Blog
+			  </a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link navbarlink" href="#contact">
+				Contact Us
+			  </a>
+			</li>
+			<li class="nav-btn">
+			  <a href="register.html">
+				<button class="btn btn-sm btn-outline-success">
+				  REGISTER
+				</button>
+			  </a>
+			</li>
+			<li class="nav-btn">
+			  <a href="#">
+			  </a>
+			</li>
+		  </ul>
+		</div>
+	  </nav>
+
+	<div id="carouselExampleControl" class="carousel slide" data-pause="none" data-interval="4000" data-ride="carousel">
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<img class="slide1img animate__slideInLeft animate__animated animate__delay-0.1s" src="images/logos/circles-logo.png" alt="">
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 animate__slideInLeft animate__animated animate__delay-1s">
+						<h1 id="title">Computing & Coding</h1>
+					</div>
+			  </div>
+		  </div>
+		  <div class="carousel-item secondSlide"> 
+			   <div class="container">
+				   <div class="row">
+					   <img src="images/computing.svg" class="col-lg-6 col-md-6 col-sm-6 computing-img">
+					   <div class="shadow col-lg-6 col-md-6 col-sm-6" style="padding-top: 20px">
+						   <h2>Upcoming FREE Courses</h2>
+						   <br />
+						   <h3>Python in a day</h3>
+						   <h3>Design your first webpage</h3>
+						   <h3>Introduction to cloud computing</h3>
+						   <h3>Blockchain Basics</h3>
+						   <h3>Introduction to AI/ML</h3>
+						   <br />
+						   <br />
+						   <br />
+						   <br />
+						   <br />
+						   <br />
+						   <div class="reg-button">
+							   <a href="register.html"><button class="btn btn-primary">REGISTER NOW</button></a>
+						   </div>
+					   </div>
+				   </div>
+			  </div>
+			</div>
+			</div>
+			</div>  
+
+			<div class="container-type typing col-lg-6 col-md-6 col-sm-6" style="margin-top: -100px;">
+				<p>Computing & Coding<br> is Where we <br><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+		</div>
+		<div class="featured">
+	    	<div class="container" style="padding: 20px">
+		    	<div class="featured-div row shadow">
+		    		<div class="col-lg-4">
+		    			<h2 class="featured-title" style="color: rgb(222, 63, 63); font-weight: 600;">Learn</h2>
+		    			<p class="featured-text"><ul>
+							<li style="list-style: lower-greek;">To acquire knowledge of or skill in by study, instruction, or experience</li>
+							<br>
+							<li style="list-style: lower-greek;">To gain a habit by experience, exposure to example, or the like; acquire</li>
+							</ul></p>
+		    		</div>
+		    		<div class="shadow col-lg-4">
+		    			<h2 class="featured-title" style="color: rgb(243, 166, 76); font-weight: 600">Create</h2>
+		    			<p class="featured-text">
+							<ul>
+								<li style="list-style: lower-greek;">To evolve from one's own thought or imagination, as a work of art or an invention.</li>
+								<br>
+								<li style="list-style: lower-greek;">To do something creative or constructive.</li>
+							</ul>
+							</p>
+		    		</div>
+		    		<div class="col-lg-4">
+		    			<h2 class="featured-title" style="color: rgb(104, 192, 66); font-weight: 600">Code</h2>
+		    			<p class="featured-text">Coding is to create computer programs, apps and websites. Your web browser, your phone OS and the apps on your phone, they're all made with code.</p>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+		<div style="background: #fff; border-radius: 8px; padding: 30px; margin: 70px 0;" class="about" id="about">
+			<h1 class="title">About</h1>
+			<br />
+			<br />
+			<hr />
+			<br />
+			<br />
+			<div class="shadow" style="padding: 30px">
+				<div class="row">
+					<div class="col-lg-6">
+						<img src="images/aboutimg.png" alt="" />
+					</div>
+					<div class="col-lg-6 about-text">
+						<p>Computing & Coding is where we Learn, Create, Code. We teach our sudents from the very bacsics 
+							till they are masters at programing. All the Courses we teach are completly <b>FREE</b>.
+							we take students of all ages to learn Programming. We'll teach you Python, Web Development, Cloud Computing, Linux and much more!
+							<br><img src="images/logos/favicon.png" />So Join us today at <b style="color: dodgerblue">Computing & Coding!</b>
+						</p>	
+					</div>	
+				</div>
+			</div>
+			<div style="margin: 20px; display: flex; justify-content: center;">
+		    	<iframe 
+			    	width="660" 
+			    	height="415" 
+			    	src="https://www.youtube.com/embed/8J8LTm7bV84" 
+			    	frameborder="3" 
+			    	allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+			    	allowfullscreen>
+		    	</iframe>
+		    </div>
+		</div>
+		<div class="container cards-container" id="staff">
+			<div class="contact-card shadow">
+	            <img class="staff-img shadow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAJFBMVEXT09Pp6enR0dHr6+vu7u7V1dXy8vL29vbOzs79/f3t7e3m5uZinoPNAAABt0lEQVR4nO3d3YqDMBQA4RiNWn3/9137Cwtduq0EOyfz3XilniEqCILpdJrOxqvhYel/6T7XvzD82/iBKY1zTpu8uW2eSjv8edC3vX+iuUvjY7ey2RNSX3nhyQ5pTUNOX961Q8mpOxfGta2dhXD3wsD3oYV4FvJZyGchXyOFS/jC3kIyC/ks5LOQz0I+C/ks5LOQz0I+C/ks5LOQz0I+C/ks5GunMK5LYXf0FDVZyHcvDP6ksRDNQj4L+Szks5DPQj4L+Szks5DPQj4L+Szks5DPQj4L+Szks5DPQr5GCpv46stCLgv5LOSzkM9CPgv5LOSzkM9CPgv5LOSzkM9CPgv5LOSzkM9CPgv5LOS7FX77Xw93uBQu4b8YWo6eoqZGCuP/K8hCNAv5LOSzkM9CPgv5LOSzkM9CPgv5LOSzkM9CPgv5LOSzkK+dwrhuhXGXsJ01PHqMihq5SkcLySzks5DPQj4L+Szks5DPQj4L+Szks5DPQj4L+Szks5CvmcKjx6iomTWMX3j0GBVZyGchn4V8FvJZyGchXzuFcV+fSspb4dFTVJXLmsY5x71Oc5m7NPVrF9g6/AAh2BPCcBloxAAAAABJRU5ErkJggg==" />
+	            <div class="contact-info">
+	                <h3>Irfan Khan</h3>
+	                <br />
+	                <p>Founder</p>
+	                <br />
+	                <a href="mailto:computingcoding@gmail.com"><i class="fas fa-envelope-square contact-media"></i></a>
+	                <a href="#"><i class="fab fa-linkedin contact-media"></i></a>
+	            </div>
+	        </div>
+	        <div class="contact-card shadow">
+	            <img class="staff-img shadow ibrahim-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAJFBMVEXT09Pp6enR0dHr6+vu7u7V1dXy8vL29vbOzs79/f3t7e3m5uZinoPNAAABt0lEQVR4nO3d3YqDMBQA4RiNWn3/9137Cwtduq0EOyfz3XilniEqCILpdJrOxqvhYel/6T7XvzD82/iBKY1zTpu8uW2eSjv8edC3vX+iuUvjY7ey2RNSX3nhyQ5pTUNOX961Q8mpOxfGta2dhXD3wsD3oYV4FvJZyGchXyOFS/jC3kIyC/ks5LOQz0I+C/ks5LOQz0I+C/ks5LOQz0I+C/ks5GunMK5LYXf0FDVZyHcvDP6ksRDNQj4L+Szks5DPQj4L+Szks5DPQj4L+Szks5DPQj4L+Szks5DPQr5GCpv46stCLgv5LOSzkM9CPgv5LOSzkM9CPgv5LOSzkM9CPgv5LOSzkM9CPgv5LOS7FX77Xw93uBQu4b8YWo6eoqZGCuP/K8hCNAv5LOSzkM9CPgv5LOSzkM9CPgv5LOSzkM9CPgv5LOSzkK+dwrhuhXGXsJ01PHqMihq5SkcLySzks5DPQj4L+Szks5DPQj4L+Szks5DPQj4L+Szks5CvmcKjx6iomTWMX3j0GBVZyGchn4V8FvJZyGchXzuFcV+fSspb4dFTVJXLmsY5x71Oc5m7NPVrF9g6/AAh2BPCcBloxAAAAABJRU5ErkJggg==" />
+	            <div class="contact-info">
+	                <h3>Ibrahim Khan</h3>
+	                <br />
+	                <p>Co-Founder</p>
+	                <br />
+	                <a href="mailto:#"><i class="fas fa-envelope-square contact-media"></i></a>
+	                <a href="#"><i class="fab fa-linkedin contact-media"></i></a>
+	            </div>
+	        </div>
+	        <div class="contact-card shadow">
+	            <img class="staff-img shadow" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHsAewMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQMEAgb/xAAjEAEAAgICAgEFAQAAAAAAAAAAAQISMRFRIZFSEzJBQoEi/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A+6ytz90mVu59iAZ27n2ZW+UpwoGd+59md+59nABnfufZnb5SkgGdu59pnf5SAH1L/KfZnfufaceQFzvH7T7M79ygC/Uvx90kWtxuXlY0sGgspKCAsAgqQAiyAiSsgIfwAQVAFjSTpY0sStEl628oAAoAAkqgCSoCIqAIqAqw8rGliVpCSqSgnCgKACCSoKiKgCKgIoAixpFhYlaSIIAiigACKkyAioAIAAgKRpFjSwr2CIBAAogACAEiAAAIACxpFjSxK9oCKioAoAIAAioAAByIoCxp5WOViV7ThhlPM+Ui1vHlFbq5s7drF7dg6OBz527Mrdg6Bzxe3GzO3GwbjDKe0yt48g6Bzxe3ZN7R+Qb8DHKeNpnbsG/4WNObO3O21Z/zCxK//9k=" />
+	            <div class="contact-info">
+	                <h3>----- ------</h3>
+	                <br />
+	                <p>-------</p>
+	                <br />
+	                <a href="mailto:#"><i class="fas fa-envelope-square contact-media"></i></a>
+	                <a href="#"><i class="fab fa-linkedin contact-media"></i></a>
+	            </div>
+	        </div>
+	        <div class="contact-card shadow">
+	            <img class="staff-img shadow" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHsAewMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQMEAgb/xAAjEAEAAgICAgEFAQAAAAAAAAAAAQISMRFRIZFSEzJBQoEi/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A+6ytz90mVu59iAZ27n2ZW+UpwoGd+59md+59nABnfufZnb5SkgGdu59pnf5SAH1L/KfZnfufaceQFzvH7T7M79ygC/Uvx90kWtxuXlY0sGgspKCAsAgqQAiyAiSsgIfwAQVAFjSTpY0sStEl628oAAoAAkqgCSoCIqAIqAqw8rGliVpCSqSgnCgKACCSoKiKgCKgIoAixpFhYlaSIIAiigACKkyAioAIAAgKRpFjSwr2CIBAAogACAEiAAAIACxpFjSxK9oCKioAoAIAAioAAByIoCxp5WOViV7ThhlPM+Ui1vHlFbq5s7drF7dg6OBz527Mrdg6Bzxe3GzO3GwbjDKe0yt48g6Bzxe3ZN7R+Qb8DHKeNpnbsG/4WNObO3O21Z/zCxK//9k=" />
+	            <div class="contact-info">
+	                <h3>----- ------</h3>
+	                <br />
+	                <p>-------</p>
+	                <br />
+	                <a href="mailto:computingcoding@gmail.com"><i class="fas fa-envelope-square contact-media"></i></a>
+	                <a href="#"><i class="fab fa-linkedin contact-media"></i></a>
+	            </div>
+	   </div>
+	   </div>
+
+	   <div class="reviews container" id="reviews">
+		<br>
+		<br>
+		<br>
+		<h1 style="text-align: center; color: #dd7732;"><u><b>Testimonials</b></u></h1>
+		<br>
+        <h3 style="text-align: center; color: #444;">See what our students say about this course:</h3>
+		<br>
+		<hr style="border-color: #222;">
+		<br>
+    <div style="height: 200px; background: #fff; margin: 20px 0 0 40px;" id="carouselExampleControls" class="carousel slide" data-interval="6000" data-pause="none" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background: #fff">
+<div class="reveiw shadow">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></i><br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br /> 
+        sed do eiusmod tempor incididunt ut labore et dolore magna<br />
+        aliqua.
+        <br /><br /><b>-User</b>
+    </div>
+    <div class="reveiw shadow">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br /> 
+        sed do eiusmod tempor incididunt ut labore et dolore magna<br /> 
+        aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <br /><br /><b>-User</b>
+    </div>
+    <div class="reveiw shadow">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+        sed do eiusmod tempor incididunt ut labore et dolore magna <br />
+        aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+        sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua.
+        <br /><br /><b>-User</b>
+    </div>
+    <div class="reveiw shadow">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br /> 
+        sed do eiusmod tempor incididunt ut labore et dolore magna<br />
+        aliqua.
+        <br /><br /><b>-User</b>
+    </div>
+    </div>
+    <div class="carousel-item" style="background: #fff">
+      <div class="reveiw shadow">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br /> 
+        sed do eiusmod tempor incididunt ut labore et dolore magna<br /> 
+        aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br /> 
+        sed do eiusmod tempor.
+        <br /><br /><b>-User</b>
+    </div>
+    <div class="reveiw shadow">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><br />
+        Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut<br /> labore et dolore magna <br />
+        aliqua. Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit.
+        <br /><br /><b>-User</b>
+    </div>
+    <div class="reveiw shadow">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <br /><br /><b>-User</b>
+    </div>
+    <div class="reveiw shadow">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <br /><br /><b>-User</b>
+    </div>
+    </div>
+    <br />
+    <br />
+  </div>
+</div>
+</div>
+<div class="contact" id="contact">
+			<br>
+			<h1>Get in touch</h1>
+			<hr />
+			<br />
+			<br />
+			<div class="map-responsive">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d848818.8548061996!2d-79.46043228818894!3d44.13877014369926!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1599436075697!5m2!1sen!2sca" width="1440" height="500" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			<br />
+			<br />
+			<div style="position: relative; bottom: 200px;" class="intro-con">
+				<h3 style="color: #005a87; position: relative; top: 10px;"><i class="fas fa-phone-square-alt" style="color: #005a87;"></i> 416-576-7875</h3>
+				<h3 class="email"><a href="mailto:computingcoding@gmail.com"><i class="fas fa-envelope-square"></i> computingcoding@gmail.com</a></h3>
+			</div>	
+		</div>
+
+		<div class="footer">
+			<img src='images/logos/favicon.png' class="footer-logo" />
+			<p class="phone"><i class="fas fa-phone-square-alt"></i> 416-576-7875</p>
+			<div class="footer-icons">
+				<a href="mailto:computingcoding@gmail.com"><i class="fas fa-envelope-square footer-icon"></i></a>
+				<i class="fab fa-facebook-square footer-icon"></i>
+				<i class="fab fa-twitter-square footer-icon"></i>
+				<i class="fab fa-github-square footer-icon"></i>
+			</div>
+		</div>
+
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+<script type="text/javascript">
+particlesJS("particles-js", {"particles":{"number":{"value":200,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#ffffff"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.25,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.3,"width":1},"move":{"enable":true,"speed":3,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);
+</script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
